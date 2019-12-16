@@ -1,0 +1,110 @@
+body {
+    max-width: 90%;
+    margin: auto;
+    background: linear-gradient(90deg, rgb(255, 143, 102), rgb(255, 68, 0));
+    background-image: url(https://p7.storage.canalblog.com/79/54/430382/23846991.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+div {
+    float: left;
+}
+
+p {
+    font-family: serif;
+    line-height: 25px;
+    font-size: 20px;
+    color: rgb(58, 0, 0);
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: brown;
+    transition: font-size 0.3s;
+}
+
+a:hover {
+    color: red;
+    font-size: 25px;
+}
+
+a:visited {
+    color: crimson;
+}
+
+blockquote {
+    max-width: 50%;
+    margin: auto;
+    font-size: 1.6em;
+    background-color: rgb(236, 236, 236);
+    border-left: 3px solid brown;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+tr:nth-child(2n) {
+    background-color: white;
+}
+
+tr:nth-child(2n+1) {
+    background-color: lightgray;
+}
+
+li {
+    font-size: 20px;
+}
+
+ul li:nth-child(1) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-1-18/master/Parcours/01-Prairie/4.HTML-CSS/progressive-enhancement/bien.png?token=AJJ75MQP3ZZPDTUURFLN6GK6ADDRO);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+ul li:nth-child(2) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-1-18/master/Parcours/01-Prairie/4.HTML-CSS/progressive-enhancement/mal.png?token=AJJ75MU7EZMXJORSKKVHMTK6ADGEM);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+ol li:nth-child(1) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-1-18/master/Parcours/01-Prairie/4.HTML-CSS/progressive-enhancement/chat.png?token=AJJ75MWDMIPKCE7XLQW6RUK6ADGHU);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+.villageois {
+    border-left: 3px solid green;
+}
+
+header span {
+    background-color: yellow;
+}
+
+.bien {
+    text-transform: uppercase;
+    color: green;
+}
+
+.mal {
+    text-transform: uppercase;
+    color: red;
+}
+
+.premier {
+    font-weight: bold;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+    float: left;
+    margin: 15px;
+}
