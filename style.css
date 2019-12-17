@@ -6,6 +6,12 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
 }
 
 div {
