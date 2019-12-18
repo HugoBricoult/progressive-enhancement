@@ -12,26 +12,32 @@
 </head>
 
 <body>
+    <!--Header-->
     <header>
         <nav>
             <img src="img/logo.PNG" alt="logo">
             <h3>active.collab</h3>
-            <ul>
+            <ul class="list1">
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Pricing</a></li>
-                <li><a href="#">More +</a></li>
+                <li><a href="#">More+</a></li>
             </ul>
-            <ul>
-                <li><a href="#">Help & Support</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Ressources</a></li>
-            </ul>
-            <button class="btn1">Try It Free</button>
-            <button class="btn2">Sign In</button>
+            <p></p>
+            <section>
+                <ul class="list2">
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Ressources</a></li>
+                </ul>
+
+                <button class="btn1">Try It Free</button>
+                <button class="btn2">Sign In</button>
+            </section>
         </nav>
         <h1>Powerful, yet simple project management tool</h1>
     </header>
-    <article>
+    <!--functions-->
+    <article class="section1">
         <section>
             <img src="img/img1.PNG" alt="image">
             <h3>Task management</h3>
@@ -53,18 +59,18 @@
             <p>Easily issue invoices for your work, save time, and get paid.</p>
         </section>
     </article>
-    <article>
+    <article class="section2">
         <p>Active Collab helps yours team stay organized when you outgrow email. But it's so much more than that - with plenty of neat add-ons, it's a one-step solution for all your business needs.</p>
-        <button>Try it free for 30 days!</button>
-        <p>No credit card required, unsubscribe at any time</p>
+        <button>Try it free for 30 days!</button><br>
+        <span>No credit card required, unsubscribe at any time</span><br>
         <img src="img/capture.PNG" alt="image">
     </article>
-    <article>
+    <article class="section3">
         <section>
             <h2>On our cloud or your server</h2>
-            <p>Active Collab runs in the cloud like most browser apps today, but you can also install it on your own server. Try it free for 30 days and then decide what works best for you</p>
+            <p class="section31">Active Collab runs in the cloud like most browser apps today, but you can also install it on your own server. Try it free for 30 days and then decide what works best for you</p>
         </section>
-        <section>
+        <section class="aligner">
             <section>
                 <img src="img/img5.PNG" alt="image">
                 <h3>Monthly plans</h3>
@@ -81,28 +87,29 @@
             </section>
         </section>
     </article>
-    <article>
+    <article class="section4">
         <h2>Who's using Active Collabs ?</h2>
         <p>For more than 10 years, we've been trusted by over 200,000 people in campanies ranging from small businesses to Fortune 500 members, universities and governement institutions.</p>
         <img src="img/collab.PNG" alt="image">
     </article>
-    <article>
+    <article class="section5">
         <h2>Get started with Active Collab</h2>
-        <p>Enter your details to get a month of Active Collab absolutely free, without any limitations. </p>
+        <p class="p1">Enter your details to get a month of Active Collab absolutely free, without any limitations. </p>
         <form action="submit">
-            <input type="text" name="nameOrg" id="nameOrg">
-            <label for="nameOrg">Your Name or Organization</label>
-            <input type="text" name="email" id="email">
-            <label for="email"></label>
-            <input type="password" name="password" id="password">
-            <label for="password"></label>
+
+            <label for="nameOrg">Your Name or Organization</label><br>
+            <input type="text" name="nameOrg" id="nameOrg" placeholder="Enter name or organization"><br>
+            <label for="email">Email</label><br>
+            <input type="text" name="email" id="email" placeholder="name@organization.com"><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder="The longer, the stronger"><br>
             <input type="submit" value="Start my free month!">
             <p>Hope you'll enjoy it!</p>
         </form>
-        <p>Your data is safe with us. <span>Active Collab security</span></p>
+        <p class="p2">Your data is safe with us. <br> <span>Active Collab security</span></p>
     </article>
     <footer>
-        <section>
+        <section class="footer">
             <section>
                 <ul>
                     <li>Alternative</li>
@@ -225,14 +232,14 @@
                 </ul>
             </section>
         </section>
-        <section>
+        <section class="footfooter">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-linkedin-in"></i></a>
             <a href="#"><i class="fab fa-medium-m"></i></a>
         </section>
-        <p>Happy collaborating! <br> &copy;2007-2017 Active Collab </p>
+        <p class="p3">Happy collaborating! <br> &copy;2007-2017 Active Collab </p>
     </footer>
 
 </body>
