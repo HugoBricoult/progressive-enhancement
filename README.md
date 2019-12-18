@@ -2,7 +2,7 @@
 
 Projet réalisé lors du Sprint HTML/CSS durant la formation BeCode.  
 
-##Contenu du projet
+## Contenu du projet
 
 On peut retrouver ici 5 dossier correspondant aux 5 sites à réaliser [ici](https://github.com/becodeorg/CRL-Keller-1-18/blob/master/Parcours/01-Prairie/4.HTML-CSS/progressive-enhancement/readme.md)  
 
