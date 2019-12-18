@@ -1,0 +1,64 @@
+body {
+    font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+    margin: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+article {
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+article h2 {
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+
+article img {
+    margin-bottom: 60px;
+}
+
+article p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+article li {
+    list-style-type: none;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+article a {
+    text-decoration: none;
+    color: gray;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    widows: 100%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
